@@ -8,8 +8,8 @@ pipeline {
     environment {
         PATH = "C:\\Program Files\\Docker\\Docker\\resources\\bin;${env.PATH}"
         DOCKERHUB_CREDENTIALS_ID = 'Docker_HUB'
-        DOCKER_IMAGE = 'meemmi/inclass:temperature'
-        DOCKER_TAG = 'latest'
+        DOCKER_IMAGE = 'meemmi/inclass'
+        DOCKER_TAG = 'temperature'
     }
 
     stages {
